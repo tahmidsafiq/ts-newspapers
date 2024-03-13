@@ -1,0 +1,50 @@
+
+.logo{
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo a{
+  text-decoration: none;
+}
+
+.logo a span{
+  padding: 0 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: black;
+  font-weight: 800;
+  margin-right: 8px;
+
+}
+
+.nav-link{
+  cursor: pointer;
+  color: #fff;
+  margin-right: 10px;
+  font-weight: 600;
+  padding: 4px 0;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+}
+
+.nav-link:hover{
+  cursor: pointer;
+  color: rgb(79, 255, 208);
+  font-weight: 600;
+}
+
+.nav-item.active .nav-link,
+.nav-link.clicked { 
+  color: rgb(79, 255, 208);
+  font-weight: 600;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
