@@ -4,7 +4,7 @@ const Navbar = ({ setCategory }) => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div className="container-fluid">
-        <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
               <div className="nav-link" onClick={() => setCategory('technology')}>Technology</div>
